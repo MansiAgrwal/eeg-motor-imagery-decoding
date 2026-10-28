@@ -1,0 +1,4 @@
+comparison,mean_difference,wilcoxon_p,people_improved,n_people
+cross-subject: CSP minus log-variance,-0.017372482589873894,0.34881019592285156,11,20
+cross-subject: aligned CSP minus CSP,0.09328533785055523,0.0014324188232421875,17,20
+CSP: within-subject minus cross-subject,0.020530420666290246,0.6215133666992188,10,20

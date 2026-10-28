@@ -1,0 +1,77 @@
+{
+  "project": "01_left_vs_right_motor_imagery",
+  "dataset": "PhysioNet EEG Motor Movement/Imagery v1.0.0",
+  "dataset_url": "https://physionet.org/content/eegmmidb/1.0.0/",
+  "subjects_requested": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "subjects_loaded": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "runs": [
+    4,
+    8,
+    12
+  ],
+  "labels": {
+    "0": "imagined left fist",
+    "1": "imagined right fist"
+  },
+  "epoch_window_seconds": [
+    0.5,
+    3.5
+  ],
+  "filter_hz": [
+    8.0,
+    30.0
+  ],
+  "evaluation": {
+    "cross_subject": "leave-one-subject-out",
+    "within_subject": "leave-one-run-out",
+    "alignment": "Euclidean alignment per person (He & Wu, 2020), label-free"
+  },
+  "primary_test": "cross-subject CSP balanced accuracy vs 0.5, two-sided Wilcoxon across people",
+  "analysis_plan_fixed": "2026-10-28, before real data were analysed",
+  "seed": 42,
+  "python": "3.13.18",
+  "mne": "1.13.2",
+  "sklearn": "1.6.1"
+}

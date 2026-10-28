@@ -1,0 +1,73 @@
+{
+  "added": "2026-10-28, after the planned results had been seen; descriptive, not part of the analysis plan",
+  "channel_groups": {
+    "sensorimotor": [
+      "FC5",
+      "FC3",
+      "FC1",
+      "FCz",
+      "FC2",
+      "FC4",
+      "FC6",
+      "C5",
+      "C3",
+      "C1",
+      "Cz",
+      "C2",
+      "C4",
+      "C6",
+      "CP5",
+      "CP3",
+      "CP1",
+      "CPz",
+      "CP2",
+      "CP4",
+      "CP6"
+    ],
+    "posterior": [
+      "P7",
+      "P5",
+      "P3",
+      "P1",
+      "Pz",
+      "P2",
+      "P4",
+      "P6",
+      "P8",
+      "PO7",
+      "PO3",
+      "POz",
+      "PO4",
+      "PO8",
+      "O1",
+      "Oz",
+      "O2",
+      "Iz"
+    ],
+    "frontal": [
+      "Fp1",
+      "Fpz",
+      "Fp2",
+      "AF7",
+      "AF3",
+      "AFz",
+      "AF4",
+      "AF8",
+      "F7",
+      "F5",
+      "F3",
+      "F1",
+      "Fz",
+      "F2",
+      "F4",
+      "F6",
+      "F8"
+    ]
+  },
+  "channel_group_reference": "each group's own average",
+  "calibration_run": 4,
+  "evaluation_runs": [
+    8,
+    12
+  ]
+}

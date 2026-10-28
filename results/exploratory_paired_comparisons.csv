@@ -1,0 +1,5 @@
+comparison,mean_difference,wilcoxon_p,people_improved,n_people
+CSP: sensorimotor minus posterior channels,0.03730001882175795,0.2548092680556696,11,20
+aligned CSP: sensorimotor minus posterior channels,0.07097920195746282,0.004969596485643009,16,20
+runs 8 and 12: calibration-run alignment minus none,0.08148809523809522,0.005518211320090199,14,20
+runs 8 and 12: calibration-run minus batch alignment,-0.0036309523809523957,0.977303436559281,8,20
